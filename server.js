@@ -9,7 +9,7 @@ client.user.setStatus("idle");
 });
 
 client.on("ready", () => {
-  var x = client.channels.get("585052986561265674");
+  var x = client.channels.get("");
   if (x) x.join();  
 });
 
@@ -34,18 +34,18 @@ client.on("ready", async ready => {
   var i = 0;
   var list = [
     "!",
-    "𝗥𝗔𝗪𝗔",
-    "𝗥𝗔𝗪𝗔๏",
-    "𝗥𝗔𝗪𝗔๏𝗦",
-    "𝗥𝗔𝗪𝗔๏𝗦𝗛",
-    "𝗥𝗔𝗪𝗔๏𝗦𝗛𝗘",
-    "𝗥𝗔𝗪𝗔๏𝗦𝗛𝗘𝗟",
-    "𝗥𝗔𝗪𝗔๏𝗦𝗛𝗘𝗟𝗕",
-    "𝗥𝗔𝗪𝗔๏𝗦𝗛𝗘𝗟𝗕𝗬",
+    "TiGER",
+    "TiGER๏",
+    "TiGER๏x",
+    "TiGER๏xS",
+    "TiGER๏xST",
+    "TiGER๏xSTA",
+    "TiGER๏xSTAF",
+    "TiGER๏xSTAFF",
  ]; 
  setInterval(() => {
-   var guild = client.guilds.get("584491260484648962")
-   var reva = guild.members.get("562392176793747456")
+   var guild = client.guilds.get("")
+   var reva = guild.members.get("")
    reva.setNickname(list[i]
    );                 
    if(i + 1 === 9) {
@@ -72,14 +72,14 @@ break;
 });
     
 client.on("message", msg => {
-if (msg.content === "<@562392176793747456>") {  
+if (msg.content === "<@712407561676259418>") {  
 msg.reply("`💔😂تاگم مەکە کاتم نیە بۆ کەسی کاتی`");
  
 }
 })
   
 
-client.login("NTYyMzkyMTc2NzkzNzQ3NDU2.YbZax  w.ak2_XgvtzRjg90sOXQZO");
+client.login("");
       
             
     
